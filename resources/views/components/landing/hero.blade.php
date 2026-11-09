@@ -1,7 +1,7 @@
 <section id="beranda" class="hero">
     <div id="tentang" class="hero-player" data-rise>
         <div class="hero-art">
-            <img src="/images/artists/night-02.jpg" alt="Lampu kota Helena setelah matahari terbenam">
+            <img src="/images/artists/helena.jpg" alt="helena">
             <button class="play-button" type="button" aria-label="Putar lagu pilihan Helena" data-player-button>
                 <span aria-hidden="true"></span>
             </button>
@@ -10,7 +10,7 @@
             <p>Helena Radio</p>
             <h1>Musik menemani<br>rasa.</h1>
             <div class="track-meta">
-                <strong>Malam di Jakarta</strong>
+                <strong>I'm Not Okay (I Promise)</strong>
                 <span>Helena Selects</span>
             </div>
             <div class="waveform" aria-hidden="true">

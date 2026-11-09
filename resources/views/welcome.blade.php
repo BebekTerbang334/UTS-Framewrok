@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#f4f1ed">
+        <meta name="theme-color" content="#171316">
         <meta name="description" content="Helena adalah rumah untuk mendengarkan musik lebih dekat—dengan kurasi yang terasa personal dan apresiasi nyata untuk para musisi.">
         <title>Helena — Musik yang terasa lebih dekat</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">

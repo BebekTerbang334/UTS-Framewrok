@@ -1,22 +1,20 @@
-<section id="tantangan" class="index-section">
+<section id="tantangan" class="index-section pain-section">
     <header class="section-heading">
-        <h2>Masih banyak pilihan.<br><em>Tapi sedikit yang terasa tepat.</em></h2>
+        <h1>Sulit menemukan musik yang terasa dekat?</h1>
     </header>
-    <div class="pain-index">
+
+    <div class="pain-list">
         <article>
-            <span>01</span>
-            <h3>Katalog terasa luas</h3>
-            <p>Menemukan lagu baru seharusnya tidak seperti mencari jalan keluar dari gudang rekaman yang tak berujung.</p>
+            <h3>Pilihan terlalu luas</h3>
+            <p>Saat semuanya tersedia, menemukan satu lagu yang pas justru terasa melelahkan.</p>
         </article>
         <article>
-            <span>02</span>
-            <h3>Rekomendasi berulang</h3>
-            <p>Selera itu berubah. Otomatisasi yang sama kemarin hari ini bisa membuat kejutannya hilang.</p>
+            <h3>Rekomendasi terasa sama</h3>
+            <p>Riwayat putar tidak selalu menggambarkan suasana hati hari ini.</p>
         </article>
         <article>
-            <span>03</span>
-            <h3>Musisi kehilangan ruang</h3>
-            <p>Di balik setiap lagu ada seseorang. Karya independen perlu konteks, bukan sekadar baris dalam daftar putar.</p>
+            <h3>Musisi tenggelam di katalog</h3>
+            <p>Karya baru butuh ruang dan cerita agar bisa ditemukan.</p>
         </article>
     </div>
 </section>

@@ -1,20 +1,22 @@
 <section id="solusi" class="solution-section">
-    <header class="section-heading">
-        <h2>Temukan lagu baru.<br><em>Tetap merasa seperti diri sendiri.</em></h2>
+    <header class="solution-heading">
+        <h2>Temukan musik<br>Rasakan ceritanya.</h2>
     </header>
-    <div class="solution-grid">
+
+    <div class="solution-list">
         <article>
-            <span>Temukan</span>
-            <h3>Kurasi sesuai suasana, bukan sekadar riwayat putar.</h3>
+            <h3>Temukan</h3>
+            <p>Kurasi mengikuti suasana, bukan hanya riwayat putar.</p>
         </article>
         <article>
-            <span>Rasakan</span>
-            <h3>Setiap lagu diberi konteks—asal, cerita, dan momen yang cocok.</h3>
+            <h3>Rasakan</h3>
+            <p>Dengarkan cerita di balik setiap lagu.</p>
         </article>
         <article>
-            <span>Dukung</span>
-            <h3>Musisi independen punya ruang yang sama untuk ditemukan.</h3>
+            <h3>Dukung</h3>
+            <p>Beri ruang lebih besar pada musisi independen.</p>
         </article>
-        <a href="#album" class="solution-action">Mulai dari koleksi <span>↘</span></a>
     </div>
+
+    <a href="#album" class="solution-action">Jelajahi koleksi</a>
 </section>
