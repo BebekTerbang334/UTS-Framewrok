@@ -1,0 +1,167 @@
+.hero {
+    max-width: 1240px;
+    margin-inline: auto;
+    padding: 24px;
+}
+
+.hero-player {
+    min-height: 520px;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: 1fr auto;
+    gap: 16px;
+    background: var(--burgundy);
+    color: white;
+    padding: 28px;
+}
+
+.hero-art {
+    grid-column: 9 / span 9;
+    grid-row: 1 / span 2;
+    position: relative;
+    min-height: 464px;
+}
+
+.hero-art img {
+    filter: saturate(0.8) contrast(1.08);
+}
+
+.play-button {
+    position: absolute;
+    left: 18px;
+    bottom: 18px;
+    width: 68px;
+    height: 68px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+    transition: transform 160ms ease, background 160ms ease;
+}
+
+.play-button:hover {
+    transform: scale(1.06);
+    background: #ff3553;
+}
+
+.play-button span {
+    position: absolute;
+    left: 29px;
+    top: 21px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 20px solid white;
+}
+
+.play-button.is-playing span {
+    left: 24px;
+    top: 23px;
+    width: 8px;
+    height: 22px;
+    border: 0;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+}
+
+.hero-copy {
+    grid-column: 1 / span 7;
+    grid-row: 1;
+    align-self: end;
+    min-width: 0;
+}
+
+.hero-copy > p {
+    margin: 0 0 18px;
+    font-family: var(--display);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--rose);
+}
+
+.hero-copy h1 {
+    margin: 0;
+    max-width: 760px;
+    font-family: var(--display);
+    font-size: clamp(48px, 6vw, 82px);
+    line-height: 0.94;
+    letter-spacing: -0.06em;
+}
+
+.hero-copy h1 em {
+    display: none;
+}
+
+.track-meta {
+    margin-top: 28px;
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    font-family: var(--display);
+}
+
+.track-meta strong {
+    font-size: 15px;
+}
+
+.track-meta span {
+    font-size: 13px;
+    color: var(--rose);
+}
+
+.waveform {
+    height: 72px;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    overflow: hidden;
+}
+
+.waveform span {
+    width: 3px;
+    height: var(--h);
+    flex: 0 0 3px;
+    background: rgba(255, 255, 255, .72);
+}
+
+.hero-player.is-playing .waveform span {
+    background: var(--accent);
+    animation: wave 900ms ease-in-out infinite alternate;
+    animation-delay: calc(var(--h) * -8ms);
+}
+
+@keyframes wave {
+    to {
+        height: calc(var(--h) + 12px);
+    }
+}
+
+.player-time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -6px;
+    font-family: var(--display);
+    font-size: 11px;
+    color: var(--rose);
+}
+
+.hero-actions {
+    grid-column: 1 / span 9;
+    grid-row: 2;
+    align-self: end;
+}
+
+.primary-button {
+    min-height: 48px;
+    padding-inline: 20px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    background: var(--accent);
+    color: white;
+    font-family: var(--display);
+    font-size: 14px;
+    font-weight: 700;
+}

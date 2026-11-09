@@ -1,0 +1,30 @@
+.site-footer {
+    max-width: 1192px;
+    min-height: 112px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 16px;
+    align-items: center;
+    font-family: var(--display);
+    font-size: 13px;
+    border-top: 1px solid rgba(247, 236, 239, 0.16);
+}
+
+.site-footer > *:first-child {
+    grid-column: 1 / span 2;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.site-footer p {
+    grid-column: 5 / span 4;
+    margin: 0;
+    text-align: center;
+    color: var(--muted);
+}
+
+.site-footer > *:last-child {
+    grid-column: 11 / span 2;
+    justify-self: end;
+}

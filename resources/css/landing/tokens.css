@@ -1,0 +1,13 @@
+:root {
+    --ink: #f7ecef;
+    --ground: #171316;
+    --surface: #231c20;
+    --surface-dark: #2d2429;
+    --accent: #ed2947;
+    --accent-soft: #c8102e;
+    --burgundy: #6f263d;
+    --rose: #c8a5ad;
+    --muted: #cbbbc0;
+    --display: 'Libre Franklin', sans-serif;
+    --text: 'Source Serif 4', serif;
+}
