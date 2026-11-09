@@ -1,0 +1,420 @@
+{
+ "version": 1,
+ "at": "2026-11-04T08:03:55.722Z",
+ "seed": 345278640,
+ "redraws": 0,
+ "input": {
+  "brief": "Helena is an intimate Indonesian music discovery platform turning listening into album rituals, emotional connection, and artist discovery",
+  "sector": "music",
+  "tone": "editorial",
+  "have": [
+   "musician photography",
+   "album-cover imagery"
+  ],
+  "keep": [],
+  "avoid": [],
+  "sections": [],
+  "direction": "contact-sheet"
+ },
+ "imagery": "atmosphere",
+ "allow": [],
+ "direction": {
+  "id": "contact-sheet",
+  "name": "The contact sheet",
+  "sectors": [
+   "personal-portfolio",
+   "studio-portfolio",
+   "agency",
+   "fashion",
+   "culture",
+   "architecture",
+   "music",
+   "ecommerce"
+  ],
+  "tones": [
+   "quiet",
+   "technical",
+   "editorial"
+  ],
+  "needs": [],
+  "idea": "Show everything at once, small, in order. The work is laid out like a photographer's contact sheet or an archive drawer: dozens of small frames in strict rows, with all text set at one small size. Nothing is featured, which is the point: the volume and consistency of the body of work is the statement, and the visitor does the choosing. It suits people and studios whose strength is range and output.",
+  "composition": "The name, or one sentence about the work, sits at display size (6–9vw) across the top of the first screen, and the sheet begins directly under it, still inside the first screen. The first screen opens with three or four short blocks of small text across the top on a 12-column grid (who, what, where to reach them), all at 14–16px, and immediately below, the sheet begins: rows of thumbnails at a fixed height (90–140px) with their natural widths, 6–10px gaps, each project forming a run of four to eight frames preceded by its title in the same small text. The sheet fills the whole page width edge to edge with 16–20px margins. Hovering a run dims the others and shows that project's one-line description in a fixed position. A single enlarged frame may interrupt the sheet once per screen at four times the size.",
+  "typography": "One face. The name at display size on the first screen; everything else at one text size and one small size; hierarchy below the name comes from position and from a single brighter ink for titles.",
+  "typeClasses": [
+   "grotesk-light",
+   "grotesk-tight"
+  ],
+  "colour": "Black or white ground, so the thumbnails are the only colour.",
+  "paletteTags": [
+   "dark-neutral",
+   "light-neutral"
+  ],
+  "imagery": "Many images: at least 24 frames to make a sheet. They can be project photographs from the dealt set cropped to mixed ratios, or page captures of the work. Square corners, no captions on the frames.",
+  "sectionTags": [
+   "dense",
+   "photo-led",
+   "quiet"
+  ],
+  "motion": "index-preview",
+  "richness": "Density and order. The mass of small images forms a texture; the strict rows keep it calm.",
+  "pitfalls": "With fewer than about 20 images it looks unfinished; choose another direction. Do not add a big headline above the sheet. On a phone the frames become two per row at a fixed height and each run scrolls sideways. Rows that run past the right edge read as clipped in screenshots and to most visitors: wrap the frames onto the next line, or end each row inside the grid.",
+  "seenIn": [
+   "aww-gil-huybrecht",
+   "opl-smallbits",
+   "opl-gunes-atakan-peksen",
+   "opl-proooof",
+   "aww-oimachi"
+  ],
+  "allow": [],
+  "needsPictures": true
+ },
+ "hero": {
+  "id": "text-band-then-sheet",
+  "name": "Text band, then sheet",
+  "archetype": "index",
+  "directions": [
+   "contact-sheet",
+   "dark-room"
+  ],
+  "needs": [],
+  "blueprint": "A black or white field on a seven-column grid with 14px margins and 14px gaps. There is no display type: everything is set at one size, 16px, in one weight. The top band is plain text hanging from a line 20px below the top edge: the name in column one; one sentence on availability in column two; a list of five or six services from column three; a longer list of clients or awards from column five; and two links, profile and the single contact action, at the right end of column seven. Lists run one item per line. Below the lists about 300px of ground is left empty. At mid-height the sheet begins: one thumbnail per column, each the full column width (about 190px) at its natural ratio, top-aligned, with the project title in the text size above the first frame of each run of two to four frames. Rows continue below the fold with 40px between them. Frames have square corners and sit directly on the ground with no border and no caption on the image.",
+  "mobile": "The grid becomes two columns with 12px gaps. The name and the availability sentence take the top; services and clients sit side by side under them as two short lists at 15px. An 80px gap follows, then the sheet: two frames per row at natural ratios, each project title above its first frame. The contact action is a text link fixed bottom-right.",
+  "headline": "None at display size: the name is set at 16px with the rest of the text, and one sentence of up to 60 characters says what the person does.",
+  "motion": "index-preview",
+  "seenIn": [
+   "aww-gil-huybrecht"
+  ]
+ },
+ "type": {
+  "id": "franklin-source",
+  "name": "Libre Franklin / Source Serif 4",
+  "class": "grotesk-tight",
+  "display": {
+   "family": "Libre Franklin",
+   "source": "google",
+   "weights": [
+    700
+   ],
+   "italic": false,
+   "settings": "weight 700 · tracking -0.035em · leading 0.92 · uppercase for the title, sentence case for section headings",
+   "css": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400;1,600&display=swap\" rel=\"stylesheet\">"
+  },
+  "text": {
+   "family": "Source Serif 4",
+   "source": "google",
+   "weights": [
+    400,
+    600
+   ],
+   "italic": true,
+   "settings": "400 for body, 600 for emphasis, italic for quotations · leading 1.55 · tracking 0",
+   "css": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400;1,600&display=swap\" rel=\"stylesheet\">"
+  },
+  "standsInFor": [
+   "Founders Grotesk",
+   "Die Grotesk",
+   "NON Natural Grotesk"
+  ],
+  "note": "An American gothic for headings over a sober transitional serif for reading, the pairing of a newspaper front page. Suits essays, annual reports, archives and finance pages that have real paragraphs.",
+  "seenIn": [
+   "aww-dragonfly-redux",
+   "aww-trevor-noah",
+   "aww-mosbys-files"
+  ],
+  "links": [
+   "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+  ],
+  "scale": {
+   "step-small": "clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem)",
+   "step-body": "clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem)",
+   "step-lead": "clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem)",
+   "step-head": "clamp(2rem, 1.3rem + 3.2vw, 4rem)"
+  }
+ },
+ "palette": {
+  "id": "cool-white-slate",
+  "name": "Frost and slate",
+  "tags": [
+   "light-neutral"
+  ],
+  "bg": "#f7f9fa",
+  "surface": "#ecf0f2",
+  "ink": "#1f3038",
+  "muted": "#5d6b72",
+  "accent": "#0d7480",
+  "accentInk": "#ffffff",
+  "note": "Cool white and one paler blue-grey step hold everything, with type in dark slate instead of black. Teal appears once per screen at most, as the primary button or one small detail beside the product photograph.",
+  "seenIn": [
+   "opl-aevion",
+   "aww-cominvi"
+  ]
+ },
+ "photos": {
+  "set": "city-night",
+  "title": "City at night",
+  "note": "night streets, lights and long exposures",
+  "treatment": null,
+  "others": [
+   "people",
+   "sky-and-space",
+   "object-still",
+   "architecture"
+  ],
+  "photos": [
+   {
+    "id": 1078,
+    "alt": "Grid of lit office windows on a tower at night",
+    "tone": "dark",
+    "colours": [
+     "dark navy",
+     "warm yellow",
+     "black"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Vladimir Kudinov",
+    "page": "https://unsplash.com/photos/KBX9XHk266s"
+   },
+   {
+    "id": 232,
+    "alt": "Twin-globe street lamp glowing in falling snow at night",
+    "tone": "dark",
+    "colours": [
+     "black",
+     "warm white"
+    ],
+    "mono": false,
+    "calm": "right",
+    "quality": 4,
+    "ratio": 1.51,
+    "by": "Hide Obara",
+    "page": "https://unsplash.com/photos/Qh6wsKk1HWg"
+   },
+   {
+    "id": 43,
+    "alt": "Suspension bridge and city skyline at night in black and white",
+    "tone": "dark",
+    "colours": [
+     "black",
+     "silver grey"
+    ],
+    "mono": true,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.54,
+    "by": "Oleg Chursin",
+    "page": "https://unsplash.com/photos/IoCWq07GaG4"
+   },
+   {
+    "id": 579,
+    "alt": "Blurred night street with glowing traffic and building lights",
+    "tone": "dark",
+    "colours": [
+     "navy",
+     "amber",
+     "teal"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Israel Sundseth",
+    "page": "https://unsplash.com/photos/BYu8ITUWMfc"
+   },
+   {
+    "id": 171,
+    "alt": "Raindrops on a window with blurred traffic lights at night",
+    "tone": "dark",
+    "colours": [
+     "charcoal",
+     "dark teal",
+     "amber"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.33,
+    "by": "Riley Briggs",
+    "page": "https://unsplash.com/photos/cSe3oKQ03OQ"
+   },
+   {
+    "id": 496,
+    "alt": "City skyline silhouette across the water under a deep blue dusk sky",
+    "tone": "dark",
+    "colours": [
+     "deep blue",
+     "amber",
+     "black"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.51,
+    "by": "davide ragusa",
+    "page": "https://unsplash.com/photos/mOPCiXScx08"
+   },
+   {
+    "id": 122,
+    "alt": "Domed cathedral and city lights reflected in a river at night",
+    "tone": "dark",
+    "colours": [
+     "dark teal",
+     "pale gold"
+    ],
+    "mono": false,
+    "calm": "bottom",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Vadim Sherbakov",
+    "page": "https://unsplash.com/photos/xS_RzdD5CFE"
+   },
+   {
+    "id": 195,
+    "alt": "Narrow alley lit by strings of hanging lights at night",
+    "tone": "dark",
+    "colours": [
+     "warm amber",
+     "dark brown",
+     "black"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 0.75,
+    "by": "Matthew Skinner",
+    "page": "https://unsplash.com/photos/t05kfHeygbE"
+   }
+  ]
+ },
+ "motion": {
+  "id": "index-preview",
+  "name": "Index with preview",
+  "description": "Rows of text are the navigation through the work; pointing at a row brings up its image in one fixed frame and dims the other rows. On touch screens each row shows its image inline instead. Fast and exact (about 240ms crossfade), no lag behind the pointer. Recipe: 'Index with preview, anchored to the row' in references/motion.md."
+ },
+ "sections": [],
+ "references": [
+  {
+   "id": "aww-gil-huybrecht",
+   "name": "Gil Huybrecht",
+   "url": "https://gilhuybrecht.com/",
+   "source": "Awwwards Site of the Day",
+   "kind": "personal-portfolio",
+   "score": 7.6,
+   "idea": "A portfolio as a contact sheet: every project is a numbered run of miniature page screenshots on black, and all text is set at one small size.",
+   "mood": [
+    "austere",
+    "archival",
+    "confident",
+    "dense"
+   ],
+   "archetype": "grid-index",
+   "hero": "Black field on a seven-column grid with 14px margins. The top band is plain white text at one size, about 16px: name in column one, availability in column two, a services list from column three, a longer awards list from column five, then 'Profile' and 'Email me' at the right. List items are indented one step under their label. Below the lists roughly 300px of black is left empty. At mid-height the thumbnail grid begins: one small website screenshot per column, about 190px wide, each topped by a number at its right corner, with the project name over the first of each run. Two tiny toggle chips sit in the bottom corners.",
+   "type": "One neo-grotesk at a single size, about 16px (1.1vw), medium-bold with tight tracking, white on black, for everything: name, lists, labels, numbers, footer. There is no headline; hierarchy comes only from column position and indentation.",
+   "colour": "#000000 #fcfcfc #272727 #8a8a8a — Pure black with white text; the only colour is whatever appears inside the screenshot thumbnails. Inactive toggle words drop to mid-grey on a dark grey chip.",
+   "imagery": "Miniature full-page captures of the designer's client sites, uncropped at natural aspect ratios, square corners, no frames or shadows, about 190px wide, sitting directly on black.",
+   "layout": "Seven equal columns with 14px gutters and margins for the whole page. Thumbnails align to columns but not to rows: each hangs from its own label at its own height, so bottoms are ragged. Projects flow continuously and wrap across rows.",
+   "sections": [
+    {
+     "role": "work",
+     "description": "A seven-column field of screenshot thumbnails on black. Each project is a consecutive run of four to six thumbnails; the project name sits above the first, and every thumbnail carries its sequence number right-aligned above it in the same 16px white. Thumbnails keep their real proportions, so a row mixes 100px-tall and 280px-tall items with ragged bottoms and about 90px of black between rows. Runs break mid-row and continue on the next line with no divider."
+    },
+    {
+     "role": "other",
+     "description": "View toggles. Two fixed chip pairs sit in the viewport's bottom corners: the left switches between a grid and a gallery view, the right between a normal and a novelty perspective mode. Each pair is a small dark-grey rounded rectangle containing two words, the active one white and the inactive grey, at the same 16px as all other text."
+    },
+    {
+     "role": "footer",
+     "description": "After about a screen of empty black, one band of text on the same seven columns: year and privacy link stacked at the left, then two columns of stacked social links, then two single links toward the right edge. Same size and weight as the header, no rule, no logo."
+    }
+   ],
+   "steal": [
+    "Set every piece of text on the page at one size and weight and build hierarchy only from column position and a one-step indent under labels.",
+    "Show projects as numbered runs of uncropped page screenshots at natural heights on a strict column grid, leaving the bottoms ragged.",
+    "Leave a deliberate 300px void between the text header and the first row of work so the lists read as a letterhead."
+   ],
+   "media": "A contact-sheet wall: one fixed WebGL canvas draws about 84 full-page screenshots of client sites at a single 190px width and their native ratios, every page of each project in reading order. Once scrolled, every screen is about three rows, roughly 48% picture and 52% black, with text under 1% and the labels above each frame, never on it; there is no video.",
+   "motion": "The preloader counts at about 13% a second for some 7-8s while the screenshot textures load, although the document loaded in 1.66s; then the first-row thumbnails rise into their slots in random order and a dark veil lifts. Lenis over a 4440px scroll proxy redraws the fixed wall with no pins or reveals; panel and hover moves use transform .75s cubic-bezier(.19,1,.22,1), and pictures fade over 1s ease-out on the phone."
+  },
+  {
+   "id": "opl-smallbits",
+   "name": "Smallbits",
+   "url": "https://smallbits.design",
+   "source": "One Page Love",
+   "kind": "other",
+   "score": 7.2,
+   "idea": "The icon set is the page: a full-viewport wall of the product with one docked card holding every word.",
+   "mood": [
+    "stark",
+    "pixelated",
+    "minimal",
+    "direct"
+   ],
+   "archetype": "grid-index",
+   "hero": "The whole viewport is a black field tiled with white pixel icons, each drawn about 50px on a 112px pitch, nine rows deep; alternate rows shift half a cell so it reads as a brick pattern, and icons at the edges are cropped. There is no header. A white square-cornered card, 795×170px, is docked bottom-centre: a two-line 24px semibold sentence left, a black rectangular button right, a row of five grey links below. A third-party badge floats top-right. This single screen is the entire page.",
+   "type": "Inter 600 at 24px, -0.02em, for the one sentence; Inter 16px semibold grey for links and button. Nothing exceeds 1.7vw — the pixel icons, not type, are the display element.",
+   "colour": "#000000 #ffffff #9a9a9a #ff6154 — Strict black and white: white icons on black, black text on a white card, grey for secondary links. The only colour is the coral third-party badge.",
+   "imagery": "About ninety visible pixel icons, each an 8×8 bitmap drawn at 50px in pure white with hard edges, tiled full-bleed and cropped at the viewport edges.",
+   "layout": "One viewport, no scroll. A staggered icon grid fills the frame edge to edge; all words live in one docked card. On mobile the card becomes a full-width white block with a full-width button.",
+   "sections": [
+    {
+     "role": "other",
+     "description": "Mobile restack, the only other state. The icon wall drops to five columns filling the top 73% of the screen; the card becomes a full-width white block at the bottom with the sentence on three lines at 18px, a full-width black button 78px tall, and five grey links spaced evenly on one line."
+    }
+   ],
+   "steal": [
+    "Make the product the wallpaper: tile the full viewport with the assets at large size and skip a hero image entirely.",
+    "Offset alternate rows by half a cell so a regular grid reads as a pattern rather than a table.",
+    "Compress all copy, the CTA and the footer links into one docked card so the page never needs to scroll."
+   ]
+  },
+  {
+   "id": "aww-no-art",
+   "name": "No Art",
+   "url": "https://www.noartmusic.com/",
+   "source": "Awwwards Site of the Day",
+   "kind": "music",
+   "score": 7.7,
+   "idea": "The page is a camera viewfinder: crop-mark brackets frame the viewport and the scrawled logo, and all text is typewriter-mono capitals like a caption burned onto footage.",
+   "mood": [
+    "raw",
+    "technical",
+    "festive",
+    "irreverent"
+   ],
+   "archetype": "fullbleed-media-overlay",
+   "hero": "Aerial festival footage (crowd, trees, an iridescent gate structure) fills the screen. Dead centre sits a hand-scrawled logo about 280px wide in a lilac chrome texture, tilted upward, with four small white corner brackets marking its bounding box. Matching brackets sit in the viewport corners, with tick marks at the mid-left and mid-right edges. Top-left: a small white copy of the scrawl. Across the top right: four mono caps links, each led by a small white square. Bottom-left: a grey mono label and a five-line fully justified mono caps paragraph only 210px wide. Bottom-right: a small dark card with a poster thumbnail, event name and date.",
+   "type": "Chivo Mono in bold capitals at 11-12px for nearly everything, fully justified so word gaps open up; Neue Haas Grotesk bold caps at about 48px (3.3vw), also justified, for the few section statements. The logo is handwriting. Two real sizes.",
+   "colour": "#ffffff #000000 #1b240b #b9b4f0 #e23b1e #8b2a52 — Dark green footage up top, then stark white with black text. Colour comes only from event posters in flat primaries, maroon flight cases in the shop photos and red dots on the globe.",
+   "imagery": "Aerial video; naive hand-drawn figure posters used as wide banners; a grey wireframe globe; full-length merchandise portraits shot against stacked flight cases in woodland, 3:4, square corners, five across.",
+   "layout": "Wide white margins inside a persistent bracket frame. Content sits on a multi-column grid: headings in the left third, justified paragraphs in the right third, carousels spanning the full width. A small square-bulleted label heads each block.",
+   "sections": [
+    {
+     "role": "intro",
+     "description": "White screen inside the bracket frame. A tiny square-bulleted mono label, then a four-line statement in 48px bold grotesk caps, fully justified to a 430px measure so the words are pushed apart, starting 11% from the left. Opposite, starting at 58%, two justified mono caps paragraphs about 440px wide and a small text link. The middle third is left empty."
+    },
+    {
+     "role": "other",
+     "description": "Events carousel. A label row with a text link at the far right, then a horizontal row of wide poster banners (about 2.2:1) showing hand-drawn dancing figures in flat primaries, 20px gaps, the fourth cut by the edge. Under each: a bracketed index number and event name in mono, date on a second line. Centred below, a prev and next control with a row of thin vertical tick marks between them as the progress indicator."
+    },
+    {
+     "role": "other",
+     "description": "Globe locator. Left: a four-line justified bold caps heading with a two-option text filter under it. Centre: a pale-grey wireframe globe about 550px across, cropped by the section's bottom edge, with a few red location dots. Around it sit tiny mono readouts: latitude and longitude above left, local time and time zone to the right, each anchored by a small corner bracket."
+    },
+    {
+     "role": "showcase",
+     "description": "Five equal 3:4 portraits edge to edge with 20px gaps, each a model standing square to camera in front of maroon flight cases among trees. Under each a plus sign, product name and price in mono. The same prev, tick-marks, next control sits centred beneath. The footer follows as a thin outlined box split into a logo cell and six link columns with bracketed mono headings."
+    }
+   ],
+   "steal": [
+    "Put small corner brackets at the viewport corners and around the logo's bounding box so the whole page reads as a viewfinder.",
+    "Fully justify short bold caps headings to a narrow measure so the uneven word gaps become the texture.",
+    "Replace carousel dots with a row of thin vertical tick marks between plain-text prev and next."
+   ],
+   "media": "A full-bleed 13s aerial festival video is meant to fill the first screen under a centred framed logo, with copy and a 107x80 next-up thumbnail docked in the bottom corners; it did not paint on desktop. Below, a swiper strip of illustrated event posters from the left margin bleeding off the right edge, a product strip of 2:3 portraits that swap to a second image on hover, and a WebGL globe between a heading and a live readout; fixed viewfinder corner marks sit over every section.",
+   "motion": "A preloader of about 4.5s reads as an aperture opening from a point: a dot grows into a black square, then a 470x250 frame holding the logo, then full bleed. Lenis with a single scrubbed trigger on the hero and nothing pinned; product images scale over 0.6s cubic-bezier(0.16,1,0.3,1) (the dominant curve, 14 uses) and swap in 0.3s, a custom cursor follows on 0.4s power3.out, and accordions open by grid-template-rows over 0.4-0.5s."
+  }
+ ],
+ "scenes": []
+}
