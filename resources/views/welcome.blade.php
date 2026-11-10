@@ -25,7 +25,7 @@
         <footer class="site-footer">
             <a href="#beranda">helena.</a>
             <p>Musik yang terasa lebih dekat. © {{ date('Y') }} Helena.</p>
-            <a href="mailto:halo@helena.music">Sapa kami ↗</a>
+            <a>awokawok</a>
         </footer>
     </body>
 </html>
