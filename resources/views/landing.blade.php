@@ -19,7 +19,7 @@
             <x-landing.hero />
             <x-landing.pain-points />
             <x-landing.solution />
-            <x-landing.album-sheet />
+            <x-landing.album-sheet :albums="$albums" />
         </main>
 
         <footer class="site-footer">
